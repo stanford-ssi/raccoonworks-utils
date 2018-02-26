@@ -8,9 +8,10 @@
   Potentially usefull classes and functions
 */
 
-
 #ifndef UTILS_H
 #define UTILS_H
+
+#include <math.h>
 
 /*
  * class: Biquad
@@ -53,5 +54,11 @@ private:
   double y[3];
   Coeffs coeffs;
 };
+
+
+
+/******************* OTHER SHIT *****************/
+
+float p2alt(float p);
 
 #endif
